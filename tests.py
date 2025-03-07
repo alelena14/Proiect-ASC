@@ -18,7 +18,7 @@ for file in os.listdir('.'):
                         print(file)
                         subprocess.call(["gcc", "-m32", "-no-pie", file, "-o", "cerinta" + file[-3]], )
 
-executables = ["./cerinta0"]
+executables = ["./ex1"]
 
 estimatedGrade = 0
 
